@@ -1,0 +1,12 @@
+package com.service;
+
+import com.model.dto.CustomerDTO;
+import com.model.entity.Customer;
+import com.model.entity.CustomerMaster;
+
+public interface CheckerService {
+    CustomerMaster dtoToCustomer(CustomerDTO makerDTO);
+    CustomerDTO CustomerToDto(Customer customer);
+
+    CustomerMaster customerTempToCustomerMaster(Customer customer);
+}
