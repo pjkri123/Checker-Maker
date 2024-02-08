@@ -1,3 +1,3 @@
 # Checker-Maker Project
 
-This is the project created using java.
+This is the project created using java and sql.
